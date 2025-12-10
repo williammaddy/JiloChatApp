@@ -10,14 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "jilo-chatz": "file:..",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.6.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^6.30.2",
     "socket.io-client": "^4.8.1",
-    "zustand": "^4.5.7",
-     "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "zustand": "^4.5.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
@@ -30,7 +31,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "postcss": "^8.4.33",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.0.8"
+    "tailwindcss": "^3.4.1"
   }
 }
