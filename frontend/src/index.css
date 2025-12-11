@@ -1,8 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@plugin "daisyui";
 
+/* ❌ REMOVE: @plugin "daisyui"; */
+
+/* Custom background */
 body{
   background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../public/doodle.jpg");
   background-repeat: no-repeat;
@@ -11,6 +13,7 @@ body{
   background-attachment: fixed;
 }
 
+/* Shake animation */
 .shake {
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
@@ -35,5 +38,3 @@ body{
     transform: translate3d(4px, 0, 0);
   }
 }
-
-
