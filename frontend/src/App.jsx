@@ -3,6 +3,7 @@ import Home from "./pages/Home/Home"
 import Login from "./pages/login/Login"
 import SingUp from "./pages/singup/SingUp"
 import {Toaster} from 'react-hot-toast'
+import "./index.css"
 import { useAuthContext } from "./context/AuthContect"
 
 function App() {
